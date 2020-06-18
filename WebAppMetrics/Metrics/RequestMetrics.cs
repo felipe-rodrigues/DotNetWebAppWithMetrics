@@ -8,7 +8,7 @@ namespace WebAppMetrics.Metrics
 
         public static CounterOptions GetCustomersCounter => new CounterOptions
         {
-            Name = "Get Customers Request",
+            Name = "customers_get_request",
             Context = "CustomersAPI",
             MeasurementUnit = Unit.Calls
         };
@@ -16,7 +16,7 @@ namespace WebAppMetrics.Metrics
 
         public static CounterOptions CreateCustomersCounter => new CounterOptions
         {
-            Name = "Create Customers Request",
+            Name = "customers_create_request",
             Context = "CustomersAPI",
             MeasurementUnit = Unit.Calls
         };
